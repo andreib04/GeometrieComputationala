@@ -24,7 +24,7 @@ namespace gc_5
             Pen pen = new Pen(Color.Red, 2);
 
             int x, y;
-            int n = rnd.Next(30, 50);
+            int n = rnd.Next(10, 20);
             Point[] points = new Point[n];
 
             for(int i = 0; i < n; i++)
